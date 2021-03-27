@@ -1,0 +1,11 @@
+Mapfre le apuesta a detectar daños superficiales en carrocerías con nueva aplicación
+
+Pablo Morales Mosquera
+
+Este nuevo algoritmo permitirá ajustar la póliza de seguro de una manera personalizada y dibujar la realidad de los daños causados
+
+La multinacional de seguros Mapfre, innovó con nuevo algoritmo, y ahora llega al sector de los seguros. Utilizó inteligencia artificial (IA) para detectar, en vivo y en directo, golpes, rayones, o pequeños defectos en las carrocerías de los vehículos que asegura, por medio de fotos tomadas desde un celular y procesadas por una aplicación que ofrece soluciones para contratar seguros al unísono.
+Esta nueva modalidad permitirá ajustar la póliza de una manera personalizada y dibujar la realidad de los daños causados sobre el vehículo con 95% de precisión, según la compañía.
+La herramienta de IA será probada en un plan piloto en España, para luego ser implementada en Latinoamérica y otros países donde opera la compañía de seguros.
+El funcionamiento parece ser sencillo. Tras contratar el seguro automotriz en línea, el usuario recibirá un mensaje de texto con un enlace que habilitará una solución web en su smartphone y le guiará en la toma de las fotografías del vehículo desde distintos ángulos: lateral derecho e izquierdo, frontal y parte trasera. Luego, un algoritmo de aprendizaje profundo (conocido como deep learning) procederá a analizar las imágenes, e identificar la presencia o ausencia de cualquier tipo de daño de latonería o pintura.
+Tan pronto el cliente apruebe, podrá disfrutar de su seguro sin la intervención de peritos.
