@@ -16,7 +16,6 @@
     - [Clase 10 Predicados en Xpath](#clase-10-predicados-en-xpath)
     - [CLase 11 Operadores en Xpath](#clase-11-operadores-en-xpath)
     - [Clase  12 Wildcards en Xpath](#clase-12-wildcards-en-xpath)
-      - [wildcard node()](#wildcard-node)
     - [Clase 13 In-text search en Xpath](#clase-13-in-text-search-en-xpath)
     - [Clase 14 Xpath Axes](#clase-14-xpath-axes)
     - [Clase 15 Resumen de XPath](#clase-15-resumen-de-xpath)
@@ -247,7 +246,7 @@ $x('//span/[@class="text" or @class="tag-item"]')
 // Usando not
 $x('//span/[not(@class)']
 ```
-### **Clase  12 Wildcards en Xpath**
+### **Clase 12 Wildcards en Xpath**
 
 Son comodines que usamos cuando no tenemos claro lo que queremos extraer.
 
@@ -275,16 +274,9 @@ $x('//span[@class="text"]/@*')
 
 // Todos los atributos (usando @*) de todos los div (usando //div) que están después de body.
 $x('/html/body//div/@*')
-```
 
-#### **Wildcard node()**
-
-**Node()** es similar a '*', pero este nos trae no solo los nodos sino lo que esta al final del nodo.
-
-```js
 // Trae todos los spam que sean de clase “text” que tengan un atributo @itemprop “text” y de ahí (usando node()) traer todo lo que esté dentro de los spam que cumplen las condiciones node() a diferencia de * trae no solamente los nodos, sino también todo el contenido.
 $x('//span[@class="text" and @itemprop="text"]/node()')
-(10) [text, text, text, text, text, text, text, text, text, text]
 ```
 
 ### **Clase 13 In-text search en Xpath**
