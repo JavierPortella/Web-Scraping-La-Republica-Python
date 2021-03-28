@@ -285,39 +285,6 @@ $x('/html/body//div/@*')
 // Trae todos los spam que sean de clase “text” que tengan un atributo @itemprop “text” y de ahí (usando node()) traer todo lo que esté dentro de los spam que cumplen las condiciones node() a diferencia de * trae no solamente los nodos, sino también todo el contenido.
 $x('//span[@class="text" and @itemprop="text"]/node()')
 (10) [text, text, text, text, text, text, text, text, text, text]
-0: text
-assignedSlot: null
-baseURI: "http://quotes.toscrape.com/"
-childNodes: NodeList []
-data: "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”"
-firstChild: null
-isConnected: true
-lastChild: null
-length: 115
-nextElementSibling: null
-nextSibling: null
-nodeName: "#text"
-nodeType: 3
-nodeValue: "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”"
-ownerDocument: document
-parentElement: span.text
-parentNode: span.text
-previousElementSibling: null
-previousSibling: null
-textContent: "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”"
-wholeText: "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”"
-__proto__: Text
-1: text
-2: text
-3: text
-4: text
-5: text
-6: text
-7: text
-8: text
-9: text
-length: 10
-__proto__: Array(0)
 ```
 
 ### **Clase 13 In-text search en Xpath**
@@ -447,7 +414,7 @@ Es posible realizar estas acciones desde cualquier otro shell. En este curso se 
 
     ```
     cd "Ruta del proyecto"
-    cd "C:\Users\param\OneDrive\Documentos\Cursos\Python\Modern Web Scraping with Python\Curso de Platzi\Proyecto_La_Republica_Scraping"
+    cd "C:\Users\...\OneDrive\Documentos\Cursos\Python\Modern Web Scraping with Python\Curso de Platzi\Proyecto_La_Republica_Scraping"
     ```
 
 2. Inicializar git en el directorio de trabajo
@@ -713,7 +680,7 @@ if __name__ == '__main__':
 
 Consejos
 
-* Revisa siempre robots.txt
+* Revisar siempre robots.txt
 * Ten en cuenta si violas alguna ley de proteccion de datos
 * Si el medio es de pago, evita hacer web scrapping por default no es legal
 
